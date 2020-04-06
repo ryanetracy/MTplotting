@@ -1,7 +1,7 @@
 #brief tutorial on how to plot mouse trajectory data from a 2 x 2 repeated-measures experiment in MouseTracker
 
 #only packages you'll need (for reshaping and for creating the graphs)
-library(tidyverse); library(gridExtra)
+library(tidyverse); library(ggpubr)
 
 #first step is to load the data
 dataFrame <- read.csv("data/mouseTrackingStudyData.csv", header = T) #not the name of any actual data, just a filler name; input your own data file's name!
